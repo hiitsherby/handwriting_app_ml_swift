@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DE91341FD7E46E00F21656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE91331FD7E46E00F21656 /* AppDelegate.swift */; };
+		18DE91361FD7E46E00F21656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE91351FD7E46E00F21656 /* ViewController.swift */; };
+		18DE91391FD7E46E00F21656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE91371FD7E46E00F21656 /* Main.storyboard */; };
+		18DE913B1FD7E46E00F21656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE913A1FD7E46E00F21656 /* Assets.xcassets */; };
+		18DE913E1FD7E46E00F21656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE913C1FD7E46E00F21656 /* LaunchScreen.storyboard */; };
+		18DE91491FD7E46E00F21656 /* handwriting_app_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE91481FD7E46E00F21656 /* handwriting_app_swiftTests.swift */; };
+		18DE91541FD7E46E00F21656 /* handwriting_app_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE91531FD7E46E00F21656 /* handwriting_app_swiftUITests.swift */; };
+		18DE91621FD814F200F21656 /* Handwriting.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18DE91611FD814F200F21656 /* Handwriting.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DE91451FD7E46E00F21656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DE91281FD7E46E00F21656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DE912F1FD7E46E00F21656;
+			remoteInfo = handwriting_app_swift;
+		};
+		18DE91501FD7E46E00F21656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DE91281FD7E46E00F21656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DE912F1FD7E46E00F21656;
+			remoteInfo = handwriting_app_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DE91301FD7E46E00F21656 /* handwriting_app_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handwriting_app_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE91331FD7E46E00F21656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DE91351FD7E46E00F21656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DE91381FD7E46E00F21656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DE913A1FD7E46E00F21656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DE913D1FD7E46E00F21656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DE913F1FD7E46E00F21656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE91441FD7E46E00F21656 /* handwriting_app_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handwriting_app_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE91481FD7E46E00F21656 /* handwriting_app_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handwriting_app_swiftTests.swift; sourceTree = "<group>"; };
+		18DE914A1FD7E46E00F21656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE914F1FD7E46E00F21656 /* handwriting_app_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handwriting_app_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE91531FD7E46E00F21656 /* handwriting_app_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handwriting_app_swiftUITests.swift; sourceTree = "<group>"; };
+		18DE91551FD7E46E00F21656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE91611FD814F200F21656 /* Handwriting.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Handwriting.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DE912D1FD7E46E00F21656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE91411FD7E46E00F21656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE914C1FD7E46E00F21656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DE91271FD7E46E00F21656 = {
+			isa = PBXGroup;
+			children = (
+				18DE91321FD7E46E00F21656 /* handwriting_app_swift */,
+				18DE91471FD7E46E00F21656 /* handwriting_app_swiftTests */,
+				18DE91521FD7E46E00F21656 /* handwriting_app_swiftUITests */,
+				18DE91311FD7E46E00F21656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DE91311FD7E46E00F21656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DE91301FD7E46E00F21656 /* handwriting_app_swift.app */,
+				18DE91441FD7E46E00F21656 /* handwriting_app_swiftTests.xctest */,
+				18DE914F1FD7E46E00F21656 /* handwriting_app_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DE91321FD7E46E00F21656 /* handwriting_app_swift */ = {
+			isa = PBXGroup;
+			children = (
+				18DE91331FD7E46E00F21656 /* AppDelegate.swift */,
+				18DE91351FD7E46E00F21656 /* ViewController.swift */,
+				18DE91611FD814F200F21656 /* Handwriting.mlmodel */,
+				18DE91371FD7E46E00F21656 /* Main.storyboard */,
+				18DE913A1FD7E46E00F21656 /* Assets.xcassets */,
+				18DE913C1FD7E46E00F21656 /* LaunchScreen.storyboard */,
+				18DE913F1FD7E46E00F21656 /* Info.plist */,
+			);
+			path = handwriting_app_swift;
+			sourceTree = "<group>";
+		};
+		18DE91471FD7E46E00F21656 /* handwriting_app_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DE91481FD7E46E00F21656 /* handwriting_app_swiftTests.swift */,
+				18DE914A1FD7E46E00F21656 /* Info.plist */,
+			);
+			path = handwriting_app_swiftTests;
+			sourceTree = "<group>";
+		};
+		18DE91521FD7E46E00F21656 /* handwriting_app_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DE91531FD7E46E00F21656 /* handwriting_app_swiftUITests.swift */,
+				18DE91551FD7E46E00F21656 /* Info.plist */,
+			);
+			path = handwriting_app_swiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DE912F1FD7E46E00F21656 /* handwriting_app_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE91581FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swift" */;
+			buildPhases = (
+				18DE912C1FD7E46E00F21656 /* Sources */,
+				18DE912D1FD7E46E00F21656 /* Frameworks */,
+				18DE912E1FD7E46E00F21656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = handwriting_app_swift;
+			productName = handwriting_app_swift;
+			productReference = 18DE91301FD7E46E00F21656 /* handwriting_app_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DE91431FD7E46E00F21656 /* handwriting_app_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE915B1FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swiftTests" */;
+			buildPhases = (
+				18DE91401FD7E46E00F21656 /* Sources */,
+				18DE91411FD7E46E00F21656 /* Frameworks */,
+				18DE91421FD7E46E00F21656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DE91461FD7E46E00F21656 /* PBXTargetDependency */,
+			);
+			name = handwriting_app_swiftTests;
+			productName = handwriting_app_swiftTests;
+			productReference = 18DE91441FD7E46E00F21656 /* handwriting_app_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DE914E1FD7E46E00F21656 /* handwriting_app_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DE915E1FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swiftUITests" */;
+			buildPhases = (
+				18DE914B1FD7E46E00F21656 /* Sources */,
+				18DE914C1FD7E46E00F21656 /* Frameworks */,
+				18DE914D1FD7E46E00F21656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DE91511FD7E46E00F21656 /* PBXTargetDependency */,
+			);
+			name = handwriting_app_swiftUITests;
+			productName = handwriting_app_swiftUITests;
+			productReference = 18DE914F1FD7E46E00F21656 /* handwriting_app_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DE91281FD7E46E00F21656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Helloworldcorp;
+				TargetAttributes = {
+					18DE912F1FD7E46E00F21656 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					18DE91431FD7E46E00F21656 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18DE912F1FD7E46E00F21656;
+					};
+					18DE914E1FD7E46E00F21656 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18DE912F1FD7E46E00F21656;
+					};
+				};
+			};
+			buildConfigurationList = 18DE912B1FD7E46E00F21656 /* Build configuration list for PBXProject "handwriting_app_swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DE91271FD7E46E00F21656;
+			productRefGroup = 18DE91311FD7E46E00F21656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DE912F1FD7E46E00F21656 /* handwriting_app_swift */,
+				18DE91431FD7E46E00F21656 /* handwriting_app_swiftTests */,
+				18DE914E1FD7E46E00F21656 /* handwriting_app_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DE912E1FD7E46E00F21656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE913E1FD7E46E00F21656 /* LaunchScreen.storyboard in Resources */,
+				18DE913B1FD7E46E00F21656 /* Assets.xcassets in Resources */,
+				18DE91391FD7E46E00F21656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE91421FD7E46E00F21656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE914D1FD7E46E00F21656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DE912C1FD7E46E00F21656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE91621FD814F200F21656 /* Handwriting.mlmodel in Sources */,
+				18DE91361FD7E46E00F21656 /* ViewController.swift in Sources */,
+				18DE91341FD7E46E00F21656 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE91401FD7E46E00F21656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE91491FD7E46E00F21656 /* handwriting_app_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DE914B1FD7E46E00F21656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DE91541FD7E46E00F21656 /* handwriting_app_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DE91461FD7E46E00F21656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DE912F1FD7E46E00F21656 /* handwriting_app_swift */;
+			targetProxy = 18DE91451FD7E46E00F21656 /* PBXContainerItemProxy */;
+		};
+		18DE91511FD7E46E00F21656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DE912F1FD7E46E00F21656 /* handwriting_app_swift */;
+			targetProxy = 18DE91501FD7E46E00F21656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DE91371FD7E46E00F21656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE91381FD7E46E00F21656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DE913C1FD7E46E00F21656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DE913D1FD7E46E00F21656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DE91561FD7E46E00F21656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DE91571FD7E46E00F21656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DE91591FD7E46E00F21656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DE915A1FD7E46E00F21656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DE915C1FD7E46E00F21656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handwriting_app_swift.app/handwriting_app_swift";
+			};
+			name = Debug;
+		};
+		18DE915D1FD7E46E00F21656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handwriting_app_swift.app/handwriting_app_swift";
+			};
+			name = Release;
+		};
+		18DE915F1FD7E46E00F21656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = handwriting_app_swift;
+			};
+			name = Debug;
+		};
+		18DE91601FD7E46E00F21656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = handwriting_app_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloworld.handwriting-app-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = handwriting_app_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DE912B1FD7E46E00F21656 /* Build configuration list for PBXProject "handwriting_app_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE91561FD7E46E00F21656 /* Debug */,
+				18DE91571FD7E46E00F21656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE91581FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE91591FD7E46E00F21656 /* Debug */,
+				18DE915A1FD7E46E00F21656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE915B1FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE915C1FD7E46E00F21656 /* Debug */,
+				18DE915D1FD7E46E00F21656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DE915E1FD7E46E00F21656 /* Build configuration list for PBXNativeTarget "handwriting_app_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DE915F1FD7E46E00F21656 /* Debug */,
+				18DE91601FD7E46E00F21656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DE91281FD7E46E00F21656 /* Project object */;
+}
